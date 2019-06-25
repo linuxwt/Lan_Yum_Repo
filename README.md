@@ -1,6 +1,11 @@
-# LAN_YUM_REPO
-该仓库利用yumdownload工具从联网的机器上把依赖包打包传至局域网服务器，然后将其中的依赖包放到构建的私有yum仓库，这样就可以在局域网安装软件了   
-该仓库目前存放了docker1.13的相关包和nginx1.12的相关包，nginx用来将私有仓库共享出去，下面是包的说明，私有仓库如何建立可以参考我的文档https://linuxwt.com/chang-yong-wang-luo-fu-wu-da-jian/ 中的yum仓库建立部分
-执行local.sh建立私有仓库
+# LAN_YUM_REPO 
+执行local.sh建立私有仓库  
+createrepo.tar.gz是createrepo工具的相关包   
+rpmdir.tar.gz是docker1.13相关包   
+nginx.tar.gz是nginx1.12相关包   
+yumdownload.tar.gz是yumdownload工具的相关包   
+repo.tar.gz是最终的yum私有仓库所含有的包，包含了前面说的docker、nginx、wget、lrzsz包   
+docker-compose-Linux-x86_64为下载下来的docker-compose文件，用来安装docker-compose，可以使用脚本compose.sh来配置   
+
 
 
