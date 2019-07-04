@@ -25,7 +25,7 @@ mv /etc/yum.repos.d/CentOS* /etc/yum.repos.d/bak
 
 netcard=$(basename $(ls -la /etc/sysconfig/network-scripts/ifcfg* | grep -v lo | awk -F ' ' '{print $9}')) 
 Netcard=${netcard/ifcfg-/}
-ip=$(ip addr | grep ${netcard1} | grep inet | awk -F ' ' '{print $2}' | awk -F '/' '{print $1}')
+ip=$(ip addr | grep ${Netcard} | grep inet | awk -F ' ' '{print $2}' | awk -F '/' '{print $1}')
 cat <<EOF>> /etc/yum.repos.d/local.repo
 [local]
 name=local
