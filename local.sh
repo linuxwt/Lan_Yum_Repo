@@ -4,7 +4,7 @@ tar zvxf createrepo.tar.gz
 tar zvxf nginx.tar.gz
 tar zvxf repo.tar.gz
 
-createrepo () {
+create_repo () {
 cd createrepodir
 yum -y localinstall *
 cd ..
@@ -16,7 +16,7 @@ yum -y localinstall *
 cd ..
 }
 
-createrepo
+create_repo
 nginxrepo
 nginx
 
