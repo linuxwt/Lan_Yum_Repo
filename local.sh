@@ -41,6 +41,6 @@ EOF
 
 mv -f rpmdir/* /usr/share/nginx/html/myshare
 mv -f nginxdir/* /usr/share/nginx/html/myshare
-mv -f repllenish/* /usr/share/nginx/html/myshare
+mv -f replenish/* /usr/share/nginx/html/myshare
 createrepo /usr/share/nginx/html/myshare 
 yum makecache
