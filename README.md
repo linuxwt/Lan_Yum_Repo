@@ -12,6 +12,8 @@ yumdownloader --resolve --destdir=rpmdir docker \
 ... \  
 依赖包n   
 
+如果下载速度过慢可以使用这个 git clone https://github.com.cnpmjs.org/ben-manes/caffeine.git   
+
 
 
 
