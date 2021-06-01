@@ -15,12 +15,12 @@ yumdownloader --resolve --destdir=rpmdir docker \
 如果下载速度过慢可以使用这个 git clone https://github.com.cnpmjs.org/ben-manes/caffeine.git   
 
 
-git lfs相关命令使用
-初始化
-git lfs install
-git lfs track "*.tar.gz"(在追踪文件的统计目录执行)
-git add .gitattributes
-解压(lfs存储的文件需要先使用lfs初步解压后才能进行正常后续解压，这里的tcpdump.tar.gz rpm.tar.gz yumdownload.tar.gz均是如此)
+git lfs相关命令使用  
+初始化   
+git lfs install   
+git lfs track "*.tar.gz"(在追踪文件的统计目录执行)   
+git add .gitattributes   
+解压(lfs存储的文件需要先使用lfs初步解压后才能进行正常后续解压，这里的tcpdump.tar.gz rpm.tar.gz yumdownload.tar.gz均是如此)  
 git lfs fetch && git lfs pull
 
 
