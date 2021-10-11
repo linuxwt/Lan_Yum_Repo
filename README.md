@@ -23,4 +23,5 @@ git add .gitattributes
 解压(lfs存储的文件需要先使用lfs初步解压后才能进行正常后续解压，这里的tcpdump.tar.gz rpm.tar.gz yumdownload.tar.gz均是如此)  
 git lfs fetch && git lfs pull
 
-
+# 可以安装的软件
+nginx1.12 docker18.03 zip unzip lrzsz createrepo 
