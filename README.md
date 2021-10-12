@@ -1,0 +1,16 @@
+基于centos7.9的私有库
+createrepo工具
+yumdownloader工具
+glusterfs6.0
+haproxy
+keepalived
+nginx
+lrzsz
+ntpdate
+zip
+unzip
+wget
+nfs
+ntp
+git
+other工具
