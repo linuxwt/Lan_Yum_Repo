@@ -4,7 +4,7 @@
 |:------|:------|:------|   
 |createrepo|||
 |yumdownloader|||
-|glusterfs|||   
+|glusterfs|6.10-1||   
 |nfs|||   
 |nginx|||   
 |lrzsz|||   
