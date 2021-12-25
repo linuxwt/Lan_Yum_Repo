@@ -1,3 +1,10 @@
+[glusterfs-geo-replication]
+name=glusterfs-geo
+baseurl=http://10.0.0.34/glusterfs-geo
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
 [glusterfs]
 name=glusterfs
 baseurl=http://10.0.0.34/glusterfs
